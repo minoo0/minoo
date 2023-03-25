@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <style>
+            h1{
+                text-align: center;
+                color: darkred;
+                border: 1px solid blueviolet;
+                border-radius: 10px;
+                padding: 10px;
+            }
+
+            img{
+                border-color: blueviolet;
+                border-radius: 10px;
+            }
+            p {
+                font-size: small;
+                line-height: 1.5 ;
+            }
+
+            button {
+                width: fit-content;
+                background-color: blueviolet;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                box-shadow: 2px 4px rgba(0, 0, 0, 0.3);
+            }
+            footer {
+                font-size: x-small;
+            }
+
+
+        </style>
+    </head>
+   <body>
+     <h1>
+        YOGA
+     </h1>
+     <img src="https://images.everydayhealth.com/images/healthy-living/fitness/all-about-yoga-mega-722x406.jpg" alt=""
+     width="300">
+     <p>Yoga is a group of physical, mental, and spiritual practices or disciplines which originated in ancient India and aim to control and still the mind, recognizing a detached witness-consciousness untouched by the mind and mundane suffering. </p>
+     <br>
+     <br>
+     <a href="https://en.wikipedia.org/wiki/Yoga">
+        Learn more on Wikipedea
+     </a>
+     <button>
+        GO To YOGA Class
+     </button>
+     <footer>
+        coded by Minoo
+     </footer>
+     <script>
+        function subscribe() {
+            let name = prompt("what is your name?")
+            prompt("what is your email address?")
+
+            alert(`thanks, ${name}`);
+        }
+        let button = document.querySelector("button");
+        button.addEventListener("click", subscribe);
+        
+    </script>
+    
+</body> 
+</html>
+
